@@ -1,8 +1,35 @@
 p {
-    color: blue;
+    color: purple;
 }
 
 #latest {
     color: aliceblue;
     background-color: orange;
+}
+
+.navigation {
+    color: green;
+    margin: 2px;
+}
+
+p.Introduction {
+    color: rgb(97, 192, 160);
+    margin: 2px;
+}
+
+#descendant h3 {
+    color: red;
+}
+
+#child > h3 {
+    color: brown;
+}
+
+#new {
+    background-color: black;
+    color: olivedrab;
+}
+
+a:hover {
+    color: brown;
 }
